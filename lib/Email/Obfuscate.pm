@@ -1,5 +1,5 @@
-# $Revision: 1.11 $
-# $Id: Obfuscate.pm,v 1.11 2003/12/09 10:51:25 afoxson Exp $
+# $Revision: 1.13 $
+# $Id: Obfuscate.pm,v 1.13 2003/12/09 11:03:56 afoxson Exp $
 
 # Email::Obfuscate - Obfuscates email addresses                                 # Copyright (c) 2003 Adam J. Foxson. All rights reserved.
 
@@ -24,7 +24,7 @@ local $^W = 1;
 
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(obfuscate_email_address);
-($VERSION) = '$Revision: 1.11 $' =~ /\s+(\d+\.\d+)\s+/;
+($VERSION) = '$Revision: 1.13 $' =~ /\s+(\d+\.\d+)\s+/;
 
 sub obfuscate_email_address {
 	my $e = shift;

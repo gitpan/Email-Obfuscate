@@ -2,7 +2,7 @@ NAME
     Email::Obfuscate - Obfuscates email addresses
 
 SYNOPSIS
-      use Obfuscate qw(obfuscate_email_address);
+      use Email::Obfuscate qw(obfuscate_email_address);
 
       print obfuscate_email_address('foo@bar.com'), "\n"; # foo[at]bar[dot]com
 

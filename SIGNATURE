@@ -15,13 +15,13 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 12549569098cbb0efa8a4aa91f5f38068791fe42 COPYING
-SHA1 c9d6e1e7839ff4a3ee484bbf9a9759921fb6fb76 Changes
+SHA1 b08d5b5863b4781a5ba96fc5f76465f4a8160e37 Changes
 SHA1 45553a6ae9b795a72e50a313f96edc6c5ecac757 INSTALL
 SHA1 5508a6a50ad705796c9d5b65405033c195b5246b MANIFEST
 SHA1 ccb844c0940cc5f78fbc82ce9f26353c08c7f234 MANIFEST.SKIP
-SHA1 9f962d48f01ec8aafe9a64fc6f6bc2a5cfb53518 META.yml
+SHA1 fee2a84b6af6f137a6717f0359755c5e14209ed0 META.yml
 SHA1 16454c86fd550ce43c03015e1e9c8b00dd81d103 Makefile.PL
-SHA1 2f3be46cd1c5beb9f8651f3e627d603f3453d4ce README
+SHA1 c2f90324c1bc248d746154ac31a7ecb4b277b036 README
 SHA1 26de6bdecccd651d3b46b92aa708c547f4f2976d inc/ExtUtils/AutoInstall.pm
 SHA1 24583a0d9fd9644c0ce10961039630658c04ddba inc/Module/Install.pm
 SHA1 b431feb7056a1bc5fc36fefb7b71d7e3fc970d0b inc/Module/Install/AutoInstall.pm
@@ -32,14 +32,14 @@ SHA1 2c8d8bacd52139c3390cd9ea5b8ce3197ab27b90 inc/Module/Install/Include.pm
 SHA1 73e47812c7c610cbca31423dd2ec830807996702 inc/Module/Install/Makefile.pm
 SHA1 1c9f1aa777868095d07681a06a84583aff35caee inc/Module/Install/Metadata.pm
 SHA1 b8ed037b7c924794219a60554d5fc71a90648719 inc/Module/Install/Win32.pm
-SHA1 31b3dd2cd5dee1f9e3cc20f527caa4b3a273a9ce lib/Email/Obfuscate.pm
-SHA1 ed553deb6e2306526015ae9e6d5509e3cc3c6499 lib/Email/Obfuscate.pod
+SHA1 5487868efc97b2ed7a2a3853dde0980083b011cc lib/Email/Obfuscate.pm
+SHA1 ca0bef0616ade0b0d845bf15d555f84b35c5fa47 lib/Email/Obfuscate.pod
 SHA1 875dec3f8dcdfc69f69eaa1a00834f39f4f244df t/0-signature.t
 SHA1 880c2f5c2e0dc030ccfc5cc72d7e281d0304ede1 t/obfuscate.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.2.1 (GNU/Linux)
 
-iD8DBQE/1al1qyhcxth1eKwRAgObAKCSjUXlNB/AIPfe0c+874iVjYtS2wCggsfG
-7vwIFSQurWyJVJiBMWFeljw=
-=ib4z
+iD8DBQE/1axFqyhcxth1eKwRApdZAKCsiz/lglTe+ucIKxOtDWb1ANQQBgCgjr4b
+LSduRTNQjci36CNgCSgfnTI=
+=KT9I
 -----END PGP SIGNATURE-----
