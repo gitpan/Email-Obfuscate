@@ -1,0 +1,13 @@
+name: Email-Obfuscate
+version: 1.11
+abstract: Obfuscates email addresses
+author: Adam J. Foxson <afoxson@pobox.com>
+license: gpl
+distribution_type: module
+no_index:
+  directory:
+    - inc
+private:
+  directory:
+    - inc
+generated_by: Module::Install version 0.27

@@ -1,0 +1,54 @@
+=head1 NAME
+
+Email::Obfuscate - Obfuscates email addresses
+
+=head1 SYNOPSIS
+
+  use Obfuscate qw(obfuscate_email_address);
+
+  print obfuscate_email_address('foo@bar.com'), "\n"; # foo[at]bar[dot]com
+
+=head1 DESCRIPTION
+
+This package provides for the obfuscation of email address in an,
+ostensibly superficial, attempt to thwart email address harvesters.
+
+Currently, there are eight different "types" of email address obfuscation
+transformations that this module employs. One of these transformations is
+randomly selected and used as a basis for obfuscation when
+obfuscate_email_address() is called.
+
+=head1 BUGS
+
+  Please report any bugs to (patches welcome):
+  http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Email-Obfuscate
+
+=head1 COPYRIGHT
+
+  Copyright (c) 2003 Adam J. Foxson. All rights reserved.
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+details.
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<perl>
+
+=back
+
+=head1 AUTHOR
+
+Adam J. Foxson E<lt>F<afoxson@pobox.com>E<gt>.
+
+=cut
